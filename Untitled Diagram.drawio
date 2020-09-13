@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T09:02:06.988Z" agent="5.0 (X11)" version="13.6.10" etag="ogTBIncnEHN2ze9-X4o5" type="github"><diagram id="AlpWFZdMq8PsCrTP1Eh3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-13T09:13:48.046Z" agent="5.0 (X11)" etag="XaeV-AJmyUaBNdKukpp2" version="13.6.10" type="github">
+  <diagram id="AlpWFZdMq8PsCrTP1Eh3" name="Page-1">
+    <mxGraphModel dx="2272" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NNyFKl0yGrNiZnmdLif2-2" value="" style="labelPosition=right;align=left;strokeWidth=4;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;direction=north;strokeColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NNyFKl0yGrNiZnmdLif2-3" value="MY RESUME" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NNyFKl0yGrNiZnmdLif2-4" value="About Me" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NNyFKl0yGrNiZnmdLif2-5" value="Work Samples" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NNyFKl0yGrNiZnmdLif2-6" value="Header &amp;amp; Footer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NNyFKl0yGrNiZnmdLif2-7" value="Contact Info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Garamond;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
