@@ -17,7 +17,16 @@ const selectedSongReducer = (selectedSong=null, action) => {
     return selectedSong;
 };
 
+const headerItemsReducer = () => {
+    return [
+        {text: "About Me", link: "/aboutme", order: 0},
+        {text: "Work Samples", link: "/worksamples", order: 1},
+        {text: "Contact Info", link: "/contactinfo", order: 2}
+    ];
+};
+
 export default combineReducers({
     songs: songsReducer,
-    selectedSong: selectedSongReducer
+    selectedSong: selectedSongReducer,
+    headerItems: headerItemsReducer
 });

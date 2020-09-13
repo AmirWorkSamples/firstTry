@@ -4,3 +4,10 @@ export const selectSong = (song) => {
         payload: song
     };
 };
+
+export const headerItemClick = (item) => {
+    return{
+        type: 'HEADER_CLICKED',
+        payload: item
+    };
+};
