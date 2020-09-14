@@ -1,0 +1,47 @@
+$header-height: 8vh;
+
+*{
+    font-family: 'Titillium Web', sans-serif;  
+    font-weight: 500;  
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: $header-height;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #ddd;
+    .logo{
+        max-height: $header-height;
+        height: $header-height;
+        width: $header-height;
+        img{
+            height: 70%;    
+            margin-top: 15%;
+            margin-left: 15%;
+        }
+    }
+    .header-items{
+        display: flex;
+        flex-grow: 1;
+        margin-left: 1vw;
+        .header-item{
+            margin-left: 2vw;
+        }
+        @media screen and (max-width: 500px) {
+            display: none;
+        }
+    }
+    .header-sidenav{
+        margin-left: auto;
+        padding-right: 4vw;
+        @media screen and (min-width: 500px) {
+            display: none;
+        }
+    }
+}

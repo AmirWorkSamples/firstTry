@@ -1,10 +1,8 @@
 import React from 'react';
-import { connect } from 'react-redux';
-
-import { headerItemClick } from '../actions';
+import './header.styles.scss';
 
 const Header = (props) => {
-    const renderedItems = props.items.map((item) => {
+    const renderedItems = props.header.items.map((item) => {
         return (
             <div key={item.order} className="header-item">
                 {item.text}
@@ -13,16 +11,17 @@ const Header = (props) => {
     });
     return(
         <div className="header">
-            <div className="title">
+            <div className="logo">
+                <img src={process.env.PUBLIC_URL + props.header.logo} alt="logo" />
             </div>
             <div className="header-items"> 
                 {renderedItems}
+            </div>
+            <div className="header-sidenav">
+                <i class="fa fa-bars"></i>
             </div>
         </div>
     );
 };
 
-const mapStateToProps = (state) => {
-    return { items: state.headerItems };
-};
-export default connect(mapStateToProps, { headerItemClick })(Header);
+export default Header;
